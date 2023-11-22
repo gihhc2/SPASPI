@@ -1,0 +1,77 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;  
+  background: linear-gradient(to right, rgb( 20,147,220), rgb(17, 54, 71));
+  text-align: right;
+  color: white;
+}
+
+a{ 
+    padding: 10px;
+    box-sizing: border-box;   
+    text-decoration: none;
+    color: white;
+    border-radius: 15px;
+}
+
+a:hover{
+
+  background-color: dodgerblue;
+}
+
+table-bg{
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 20px 0 0;
+  text-align: center;
+  position: relative;
+
+}
+
+table{
+  background: rgba(0, 0, 0, 0.35);
+  border-radius: 10px 10px;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  width:max-content;
+}
+
+.box-search{
+  display: flex;
+  justify-content: left;
+  gap: .1%;
+  
+  text-decoration: none;
+  border-radius: 15px;
+  padding: 10px;
+  box-sizing: border-box;    
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 1px 12px;
+  
+}
+
+header{
+  text-align: left;
+  padding: 25px;
+}
+
+tr{
+  text-align: center;
+}
+
+
+.btn btn-outline-info{
+  background-color: dodgerblue;
+}
+
+.btn-primary{  
+  border-radius: 5px;
+  padding: 3px; 
+  box-sizing: border-box;
+  color:white;
+
+}
+
+.btn-danger{
+  color: red;
+}
+
